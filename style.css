@@ -1,0 +1,173 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.lien{
+    gap: 20px;
+}
+.but{
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+}
+.bande1{
+    min-width: 100%;
+}
+.band1{
+    background-image: url(images/Rectangle\ 53.png);
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 400px;
+    margin: auto;
+}
+.text1{
+    margin-top: 100px;
+    padding: 0 20px 0 40px;
+}
+.btne{
+    width: 200px;
+    margin-top: 50px;
+}
+.car2{
+    background-image: url(images/Vector\ 1.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.perso{
+    height: 500px;
+}
+.band2{
+    background-image: url(images/Rectangle\ 53.png);
+    border-radius: 60px;
+    background-size: 100% 100%;
+    min-height: 400px;
+    
+}
+.lang{
+    gap: 20px;
+    min-width: 230px;
+}
+.band3{
+    border: 1px solid rgb(117, 231, 197);
+    min-height: 500px;
+    border-radius: 60px;
+}
+.text2{
+    padding: 0 20px 0 40px;
+    font-size: 13px;
+}
+.car{
+    height: 200px;
+    width: 290px;
+    border-radius: 20px;
+}
+.rec{
+    background-image: url(images/Rectangle1.png);
+    min-height: 500px;
+    padding-left: 50px;
+}
+.recs{
+    background-image: url(images/rectangle2.png);
+    height: 200px;
+    background-size: 100% 100%;
+}
+.form{
+    margin-left: 65px;
+    color: white;
+    max-width: 450px;
+}
+.forms{
+    margin-left: 110px;
+    color: white;
+    max-width: 450px;
+}
+.butt{
+    border-radius: 0px;
+    width: 100px;
+}
+
+
+
+
+
+/*  */
+#myCarousel {
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-start,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-item-next:not(.carousel-item-start) {
+        transform: translateX(25%) !important;
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-item-prev:not(.carousel-item-end),
+    .active.carousel-item-start,
+    .carousel-item-prev:not(.carousel-item-end) {
+        transform: translateX(-25%) !important;
+    }
+
+    .carousel-item-next.carousel-item-start,
+    .active.carousel-item-end {
+        transform: translateX(0) !important;
+    }
+
+    .carousel-inner .carousel-item-prev,
+    .carousel-item-prev:not(.carousel-item-end) {
+        transform: translateX(-25%) !important;
+    }
+}
+.vagu{
+    background-image: url(images/vague.png);
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    
+}
+.rect2{
+    background-image: url(images/Rectangle1.png);
+    min-width: 100%;
+    justify-content: space-around;
+    min-height: 600px;
+}
+.fot1{
+    height: 400px;
+
+    
+}
+.carde{
+    height: 200px;
+}
+.im{
+    height: 200px;
+}
+.carde{
+    height: 200px;
+    background-color: #F44336;
+}
+.ban{
+    background-color: #009688;
+    ;
+}

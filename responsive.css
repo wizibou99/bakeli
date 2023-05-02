@@ -1,0 +1,18 @@
+@media screen and (max-width: 900px){
+    .band1{
+        height: 500px;
+    }
+    .band2{
+        height: 800px;
+    }
+    .carré{
+        margin-top: 35px;
+    }
+    .car{margin-top: 10px;
+    }
+    .group{
+        width: 100%;
+    }
+    .parte{
+        flex-direction: row;
+    }
